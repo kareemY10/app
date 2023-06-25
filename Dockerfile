@@ -1,6 +1,6 @@
 
 from node
-COPY ./public app
+COPY public app
 COPY server.js app
 COPY views app
 workdir app
